@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 
-/* ===============================
-   ZMIENNE KOLORÓW (LIGHT/DARK)
-================================ */
+
 :root {
   --primary-color: #2b2b2b;
   --secondary-color: #777;
@@ -29,9 +27,7 @@
   --loader-top: #9AAEC2;
 }
 
-/* ===============================
-   OGÓLNE STYLE
-================================ */
+
 body {
   margin: 0;
   padding: 0;
@@ -43,18 +39,14 @@ body {
   margin: 0 auto;
 }
 
-/* ===============================
-   HEADER / NAWIGACJA
-================================ */
+
 nav {
   display: flex;
   justify-content: flex-end;
   padding: 20px 0;
 }
 
-/* ===============================
-   POSTY / KONTENER
-================================ */
+
 .container {
   max-width: 750px;
   padding: 0 1rem;
@@ -86,9 +78,7 @@ nav {
   line-height: 1.6;
 }
 
-/* ===============================
-   LOADER
-================================ */
+
 .loader-box {
   position: fixed;
   display: flex;
@@ -119,9 +109,7 @@ nav {
   100% { transform: rotate(360deg); }
 }
 
-/* ===============================
-   PRZEŁĄCZNIK DARK/LIGHT
-================================ */
+
 .checkbox {
   position: absolute;
   opacity: 0;

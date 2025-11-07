@@ -41,7 +41,7 @@ class InfiniteScroll {
         )
       );
 
-      // Symulacja 1 sekundy ładowania
+      
       await new Promise((resolve) => setTimeout(resolve, 300));
 
       this.displayPosts(responses);
